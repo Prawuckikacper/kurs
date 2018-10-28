@@ -25,8 +25,27 @@
             <input type="radio" name="Kandydat" value="k">Kowalski<br>
             <input type="radio" name="Kandydat" value="n">Nowak<br>
             <input type="radio" name="Kandydat" value="c">Cejrowski<br>
-        <input type="submit" value="Zagłosuj">
+            <input type="submit" value="Zagłosuj">
     </form>
         </fieldset>
+    <hr>
+    <form action="Dzieki.html">
+            <input type="text"
+                   name="imie"
+                   id="imie"
+                   pattern="[a-z]{3,15}"
+                   placeholder="Imię"
+                   title="Jak masz na imię? Podaj je, używając tylko liter, minumum 3 litery."
+                   required><br>
+            <input type="text" name="Nazwisko" id="Nazwisko" placeholder="Nazwisko" required><br>
+            Narodowość: 
+            <input type="radio" name="kraj" value="Polska" >Polska
+            <input type="radio" name="kraj" value="Bialorus">Białoruś
+            <input type="radio" name="kraj" value="Chiszpania"checked>Chiszpania<br>
+            <input type="email" name="mail" id="mail" placeholder="Email"><br>
+            <input type="number" name="wiek" placeholder="wiek" id="wiek"><br>
+            <input type="submit" name="przycisk" value="Zatwierdź" required>
+            
+    </form>
 </body>
 </html>
