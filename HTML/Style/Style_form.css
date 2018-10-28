@@ -1,0 +1,7 @@
+body{
+    width: 100%;
+}
+#glosowanie, fieldset{
+    background-color: chartreuse;
+        width: 25%;
+}
