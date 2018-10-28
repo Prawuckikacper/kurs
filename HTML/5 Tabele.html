@@ -48,17 +48,84 @@
         <table>
             <tr>
                 <th></th>
-                <th>Nagłówek pierwszej kolumny</th>
-                <th>Nagłówek drugiej kolumny</th>
+                <th scope="col">Nagłówek pierwszej kolumny</th>
+                <th scope="col">Nagłówek drugiej kolumny</th>
             </tr>
             <tr>
-                <th>Nagłówek pierwszego wiersza</th>
-                <th>Dane 1</th>
-                <th>Dane 2</th>
+                <th scope="row">Nagłówek pierwszego wiersza</th>
+                <th scope="row">Dane 1</th>
+                <th scope="row">Dane 2</th>
             </tr>
             <th>Nagłówek drugiego wiersza</th>
             <th>Dane 3</th>
             <th>Dane 4</th>
         </table>
+        <hr>
+        <!--Łączenie kolumn-->
+    <table>
+        <tr>
+            <th></th>
+            <th>Poniedziałek</th>
+            <th>Wtorek</th>
+            <th>Środa</th>
+        </tr>
+        <tr>
+            <th>15:00</th>
+            <td>Judo</td>
+            <td>Kido</td>
+            <td>Balet</td>
+        </tr>
+        <tr>
+            <th>16:00</th>
+            <td colspan="3">Boks</td>
+            
+        </tr>
+        <p></p>
+        <tr>
+            <th>17:00</th>
+            <td>KSW</td>
+            <td colspan="2">Zapasy</td>
+            <!--Powielanie ^^^-->
+        </tr>
+        </table>
+        <!--Łączenie wierszy-->
+        <table>
+            <tr>
+                <td>1 placek</td>
+                <td>2 placek</td>
+                <td>3 placek</td>
+            </tr> <tr>
+                <td rowspan="2">4 placek</td>
+                <td>5 placek</td>
+                <td>6 placek</td>
+            </tr> <tr>
+                
+                <td>8 placek</td>
+                <td>9 placek</td>
+          
+            </tr>
+        </table>
+        
+    <table>
+        <tr>
+            <th colspan="5">Header</th>
+        </tr>
+        <tr>
+            <th rowspan="4">Left index</th>
+        </tr>
+        <tr>
+            <td colspan="2">Text</td>
+            <td><img src="IMG/Polska%20ma%C5%82a.jpg" width="150" height="50"></td>
+            <td><img src="IMG/bialorus%20mini.jpg" width="150" height="50"></td>
+        </tr>
+        <tr>
+            <th><img src="IMG/hol%20mala.png" width="150" height="50"></th>
+            <th colspan="3">Text</th>
+            
+        </tr>
+        <tr>
+            <th colspan="4">Text</th>
+        </tr>
+    </table>
     </body>
 </html>
