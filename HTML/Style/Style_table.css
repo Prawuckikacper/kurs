@@ -1,6 +1,7 @@
- td{
-    color:aqua;
+ td, th{
+    color:black;
     border: 1px solid pink;
+     text-align: center
    }
 
 table{
