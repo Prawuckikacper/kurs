@@ -6,7 +6,7 @@
     </head>
     <body>
             <h4>Opinie o filmie</h4>
-        <form>
+        <form method="post">
             <textarea cols="50" rows="10" name="kom">Wpisz swój komentarz!
 
             </textarea><br>
@@ -21,7 +21,23 @@
             <input type="checkbox" name=kolor value="r" >Różowy<br>
             <input type="checkbox" name=kolor value="z" >Zielony<br>
             <input type="checkbox" name=kolor value="N" >Niebieski<br>
+            <input type="submit" name="Przycisk"><br>
+            Wybierz ulubionego aktora:
+            <select name="aktor" multiple><!--multiple daje wiele opcji wyboru-->
+            <optgroup label="Austria">
+                <option value="AS">Arnold Schwarzenegger</option>
+            </optgroup>
+            <optgroup label="USA">
+                <option value="ss">Sylvester Stallone</option>
+            </optgroup>
+            <optgroup label="Polska">
+                <option value="bs">Borys Szyc</option>
+            </optgroup><br>
             <input type="submit" name="Przycisk">
+            </select><br>
+            <input type="file" name="muzyka"><br>
+            <input type="hidden" name="id" value="janusz">
+            <input type="image" src="IMG/bialorus%20mini.jpg" alt="Tu miała być flaga...">
         </form>
     </body>
 </html>
