@@ -1,0 +1,100 @@
+* {
+   background-color: lightgrey;
+   font-size: 75%;
+}
+@font-face {
+   font-family: GrandHotel;
+   src: url('./../Czcionki/grand-hotel/GrandHotel-Regular.otf');
+}
+@font-face {
+   font-family: Love_and_Passion;
+   src: url('./../Czcionki/love/Jellyka_-_Love_and_Passion/Love_and_Passion.ttf');
+}
+#g {
+   font-family: Georgia;
+   font-size: 10px;
+}
+#t, #tnr {
+   font-family: Times, "Times New Roman";
+}
+.bezszeryfowa {
+   font-family: Arial, Verdana;
+}
+#h {
+   font-family: Helvetica;
+   font-size: 200%
+}
+#GH {
+   font-family: GrandHotel;
+}
+#Love_and_Passion {
+   font-family: Love_and_Passion;
+}
+#normalna {
+   font-weight: normal;
+
+}
+#pogrubiona {
+   font-weight: bold;
+}
+h4 {
+   color: green;
+   text-transform: lowercase;
+}
+#normalna_ {
+   font-style: normal;
+}
+#kursywa {
+   font-style: italic;
+}
+#pochylona {
+   font-style: oblique;
+}
+h1 {
+   font-size: 150%;
+   text-transform: uppercase;
+}
+.firstUpper {
+   text-transform: capitalize;
+   color: aqua;
+}
+#normalny {
+   text-decoration: none;
+}
+#podkreslany {
+   text-decoration: underline;
+}
+#lnt {
+   text-decoration: overline;
+}
+#przekreslenie {
+   text-decoration: line-through;
+}
+#normalny, podkreslany, lnt, przekreslenie {
+   line-height: 2em;
+}
+#odleglosci {
+   text-transform: uppercase;
+   letter-spacing: 0.25em;
+   font-weight: bold;
+   word-spacing: 2em;
+   font-size:
+}
+#Lewy {
+   text-align: left;
+}
+#prawy {
+   text-align: right;
+}
+#srodek {
+   text-align: center;
+}
+#wyj {
+   text-align: justify;
+}
+#gora {
+   background-color: yellow;
+   height: 100px;
+   vertical-align: bottom;
+   font-display: fallback;
+}
