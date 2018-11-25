@@ -1,0 +1,29 @@
+* {
+   font-family: Arial, Verdana, sans-serif;
+   color: red;
+}
+h1 {
+   font-family: courier New, monospace;
+   color: yellow
+}
+i {
+   color: green;
+}
+i {
+   color: black;
+}
+b {
+   color: teal;
+}
+p b {
+   color: magenta !important;
+}
+p b {
+   color: brown;
+}
+p#opis {
+   font-size: 100%
+}
+p {
+   font-size: 50%
+}

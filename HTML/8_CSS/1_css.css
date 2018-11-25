@@ -1,0 +1,61 @@
+body {
+   background-color: black;
+   color: red;
+}
+p{
+   color: rgb(79, 213, 32, 0.9);
+
+}
+#wzgorza{
+   color: rgb(201, 204, 205);
+}
+h1,h4{
+   color: rgb(81, 214, 146);
+   font-family: "Arial", cursive, sans-serif;
+}
+h3{
+   color: rgb(227, 227, 227);
+}
+a:link{
+   color: magenta;
+}
+a:visited{
+   color: rgb(1, 161, 12);
+}
+a:hover{
+   color: rgb(0, 0, 0);
+   cursor: crosshair;
+   text-decoration: underline;
+
+}
+a:active{
+   color: rgba(41, 46, 54, 0.73);
+   background-color: hotpink;
+}
+a {
+   text-decoration: none;
+
+}
+a:hover, a:active{
+   color: green;
+}
+/*selektor elementu dziecka*/
+ul > a:link{
+   color: black;
+}
+/*SELEKTOR ELEMENTU POTOMNEGO*/
+h1 a:link{
+   color: rgb(212, 122, 185);
+}
+
+/*SELEKTOR ELEMENTU SĄSIADUJĄCEGO BEZPOŚREDNIEGO*/
+
+   h4 + p{
+      color: white;
+   }
+
+
+/* p - selektor
+   color - właściwość
+   red - wartość
+*/
