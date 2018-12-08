@@ -92,9 +92,13 @@ h1 {
 #wyj {
    text-align: justify;
 }
+div{
+   min-height: 100px;
+   background: yellow;
+}
 #gora {
    background-color: yellow;
    height: 100px;
    vertical-align: bottom;
-   font-display: fallback;
+   font-display:
 }

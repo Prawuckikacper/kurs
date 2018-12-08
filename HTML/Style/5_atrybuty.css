@@ -1,0 +1,143 @@
+body {
+   background-color: aliceblue;
+   font-size: 30px;
+}
+
+/*table, tr, td {
+   border: solid 1px black;
+   border-collapse: collapse;
+   padding: 10px
+}
+
+#jan{
+   vertical-align: text-top;
+}
+#anna{
+   vertical-align: text-bottom;
+}
+
+#pawel{
+   vertical-align: baseline;
+}
+
+#krystian{
+
+}
+*/
+#flagab{
+   width: 15px;
+   height: 15px;
+}
+.top{
+   vertical-align: text-bottom;
+}
+.bottom{
+   vertical-align: text-bottom;
+}
+
+.baseline{
+   vertical-align: baseline;
+}
+#wciecie{
+   text-indent: 40px;
+   background-color: rgb(23, 198, 192);
+}
+
+#wciecie2{
+   text-indent: 50%;
+   background-color: rgb(200, 42, 123);
+}
+
+.jeden{
+   color: 666666;
+   background-color: #dddddd;
+   text-shadow: 1px 1px 0px #000000;
+}
+/*
+   1px wielkość przesunięcia cienia w lewo/prawo (w poziomie)
+   1px wielkość przesunięcia cienia w górę/dół (w pionie)
+   0px stopień rozmazania cienia
+   #000000 kolor cienia
+*/
+
+.dwa{
+ color: #666666;
+ background-color: #dddddd;
+ text-shadow: 1px 1px 15px #000000
+}
+
+.trzy{
+ color: #666666;
+ background-color: #cccccc;
+ text-shadow: 3px 8px 10px #000000
+}
+
+.cztery{
+ color: #black;
+ background-color: #bbbbbb;
+ text-shadow: -4px -4px aqua
+}
+
+.piec{
+ color: #ffffff;
+ background-color: #aaaaaa;
+ text-shadow: 3px -3px #666666
+}
+
+p.linia::first-letter{
+   color: aqua;
+}
+
+p.linia::first-line{
+   font-weight: bold;
+
+}
+a:link{
+   color: green;
+   text-decoration: none;
+}
+
+a:visited{
+   color: red;
+}
+
+a:hover{
+   color: rgb(35, 205, 21);
+   text-decoration: underline;
+   text-shadow: 3px -3px 5px grey;
+}
+
+a:active{
+   color: rgb(233, 80, 14);
+
+}
+
+input{
+   background-color: aqua;
+   padding: 5px 80px 5px 10px;
+}
+
+input.submit{
+   background-color: black;
+   color: aliceblue;
+   padding: 10px
+}
+
+input.submit:hover{
+   background-color: rgb(106, 106, 106);
+}
+
+input.submit:active{
+   color: red;
+   text-shadow: 4px 4px 10px red;
+}
+input.text:focus{
+   background-color: rgb(191, 27, 27);
+   color: aliceblue;
+}
+/*
+   5px   góra
+   80px  prawa
+   5px   dół
+   10px  lewa
+*/
