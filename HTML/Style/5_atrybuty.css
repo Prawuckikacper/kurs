@@ -135,6 +135,9 @@ input.text:focus{
    background-color: rgb(191, 27, 27);
    color: aliceblue;
 }
+.abcde, .abc{
+   color: pink;
+}
 /*
    5px   góra
    80px  prawa
