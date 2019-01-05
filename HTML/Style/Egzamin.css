@@ -1,0 +1,38 @@
+h3{
+   margin padding: 0px;
+}
+
+#baner {
+   background-color: #40271A;
+   color: white;
+   text-align: center;
+   height: 80px;
+}
+#lewy {
+   float: left;
+   background-color: #DBB29C;
+   height 40%
+   width: 700px;
+}
+
+#prawy {
+   float: left;
+   background-color: #FFE3D4;
+   height 60%;
+   width: 700px;
+}
+#stopka{
+   clear: both;
+   background-color: #40271A;
+   color: white;
+   text-align: right;
+}
+/*table {
+   border-collapse: separate;
+   border-spacing: 10px;
+   margin: 10px;
+   text-align: center;
+   border-width: 500px;
+   border-color: red;
+   padding: 10px;
+}*/
